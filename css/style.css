@@ -76,7 +76,7 @@ ul {
 }
 
 .main {
-  background: url("img/main/bg.jpg") center center;
+  background: url("../img/main/bg.jpg") center center;
   background-repeat: no-repeat;
 }
 .main .main-inner {
@@ -87,6 +87,8 @@ ul {
 .main .main-inner div img {
   margin-left: 100px;
   transition: 0.1s linear;
+  width: 500px;
+  height: 1000px;
 }
 .main .main-inner div img:hover {
   transform: scale(1.05);
@@ -94,14 +96,16 @@ ul {
 
 .footer {
   background: #F8F8F8;
+  height: 132px;
+  border-radius: 0px 0px 32px 32px;
 }
-.footer .footer-inner {
+.inner {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   height: 130px;
 }
-.footer .footer-inner .item {
+.inner .item {
   width: 720px;
   height: 250px;
   display: flex;
@@ -110,22 +114,22 @@ ul {
   background: #fff;
   border: 2px #000 solid;
 }
-.footer .footer-inner .item .info {
+.inner .item .info {
   display: flex;
   flex-direction: column;
 }
-.footer .footer-inner .item .info h2 {
+.inner .item .info h2 {
   color: #C4C4C4;
   font-size: 40px;
 }
-.footer .footer-inner .item .info h3 {
+.inner .item .info h3 {
   font-size: 24px;
   padding: 30px 0;
 }
-.footer .footer-inner .item .info p {
+.inner .item .info p {
   font-size: 16px;
 }
-.footer .footer-inner .item:last-child {
+.inner .item:last-child {
   width: 215px;
   padding: 100px 95px;
 }
