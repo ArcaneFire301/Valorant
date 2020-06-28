@@ -1,0 +1,131 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  overflow-x: hidden;
+  background: #1F2326;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+}
+
+button, input {
+  border: none;
+  transition: 0.1s linear;
+}
+
+button:hover {
+  transform: scale(1.05);
+}
+
+h1, h2, h3, p {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+.container {
+  width: 100%;
+  max-width: 2500px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.header {
+  background: #1F2326;
+}
+.header .header-inner {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 45px 0;
+  color: #fff;
+}
+.header .header-inner nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.header .header-inner nav a {
+  margin-left: 70px;
+}
+.header .header-inner nav a img {
+  padding-left: 15px;
+}
+.header .header-inner .left, .header .header-inner .right {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.header .header-inner .left h2, .header .header-inner .right h2 {
+  margin: 0 20px;
+}
+
+.main {
+  background: url("img/main/bg.jpg") center center;
+  background-repeat: no-repeat;
+}
+.main .main-inner {
+  display: flex;
+  height: 1440px;
+  align-items: center;
+}
+.main .main-inner div img {
+  margin-left: 100px;
+  transition: 0.1s linear;
+}
+.main .main-inner div img:hover {
+  transform: scale(1.05);
+}
+
+.footer {
+  background: #F8F8F8;
+}
+.footer .footer-inner {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 130px;
+}
+.footer .footer-inner .item {
+  width: 720px;
+  height: 250px;
+  display: flex;
+  flex-direction: row;
+  padding: 40px 55px 30px;
+  background: #fff;
+  border: 2px #000 solid;
+}
+.footer .footer-inner .item .info {
+  display: flex;
+  flex-direction: column;
+}
+.footer .footer-inner .item .info h2 {
+  color: #C4C4C4;
+  font-size: 40px;
+}
+.footer .footer-inner .item .info h3 {
+  font-size: 24px;
+  padding: 30px 0;
+}
+.footer .footer-inner .item .info p {
+  font-size: 16px;
+}
+.footer .footer-inner .item:last-child {
+  width: 215px;
+  padding: 100px 95px;
+}
