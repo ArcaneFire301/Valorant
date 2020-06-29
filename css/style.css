@@ -74,7 +74,7 @@ ul {
 .header .header-inner .left h2, .header .header-inner .right h2 {
   margin: 0 20px;
 }
-
+/*Hero background */
 .main {
   background: url("../img/main/bg.jpg") center center;
   background-size: cover;
@@ -86,6 +86,7 @@ ul {
   height: 1499px;
   align-items: center;
 }
+/*Hero img*/
 .main .main-inner div img {
   margin-left: 100px;
   transition: 0.1s linear;
@@ -100,6 +101,7 @@ ul {
   background: #F8F8F8;
   height: 132px;
 }
+/*Hero ability */
 .inner {
   display: flex;
   flex-direction: row;
