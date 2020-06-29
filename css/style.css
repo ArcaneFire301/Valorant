@@ -77,18 +77,20 @@ ul {
 
 .main {
   background: url("../img/main/bg.jpg") center center;
+  background-size: cover;
   background-repeat: no-repeat;
+
 }
 .main .main-inner {
   display: flex;
-  height: 1440px;
+  height: 1499px;
   align-items: center;
 }
 .main .main-inner div img {
   margin-left: 100px;
   transition: 0.1s linear;
-  width: 500px;
-  height: 1000px;
+  width: 512px;
+  height: 1025px;
 }
 .main .main-inner div img:hover {
   transform: scale(1.05);
@@ -97,7 +99,6 @@ ul {
 .footer {
   background: #F8F8F8;
   height: 132px;
-  border-radius: 0px 0px 32px 32px;
 }
 .inner {
   display: flex;
